@@ -38,6 +38,7 @@ const ImageGalleryMobile = () => {
               key={idx}
               onClick={() => setIndex(idx)}
               className=" h-24 w-48 rounded-xl cursor-pointer mt-4 focus:ring-4 ring-lime-500 hover:opacity-hover focus:opacity-focus"
+              tabIndex={0}
               src={image}
               alt="images"
             />
