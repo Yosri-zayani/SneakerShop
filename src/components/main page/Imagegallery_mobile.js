@@ -37,7 +37,7 @@ const ImageGalleryMobile = () => {
             <img
               key={idx}
               onClick={() => setIndex(idx)}
-              className="w-[50%] h-[20%] rounded-xl cursor-pointer mt-4 focus:ring-4 ring-lime-500 hover:opacity-hover focus:opacity-focus"
+              className=" h-24 w-48 rounded-xl cursor-pointer mt-4 focus:ring-4 ring-lime-500 hover:opacity-hover focus:opacity-focus"
               tabIndex={0}
               src={image}
               alt="images"
