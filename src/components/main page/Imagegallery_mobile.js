@@ -24,7 +24,7 @@ const ImagegalleryMobile = () => {
 
   return (
     <>
-      <div className="hidden md:inline  ">  {/**Desktop design */}
+      <div className="hidden md:inline ">  {/**Desktop design */}
 
         <img
           tabIndex={0}
@@ -34,7 +34,6 @@ const ImagegalleryMobile = () => {
           onClick={() => openLightBox(index)}
         ></img>
         <div className="h-auto flex space-x-6 focus:ring-2">
-          {" "}
           {images.map((image, index) => (
             <img
               onClick={() => {
