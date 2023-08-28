@@ -53,7 +53,7 @@ const Mainpage = () => {
         cartRef={cartRef}
       />
       <div className="hidden md:flex" >  {/*Desktop  */}
-        <div className=" w-[50%]  h-auto  mr-8">
+        <div className=" w-[50vw]  h-auto  mr-8">
         <ImagegalleryMobile />
         </div>
         <div className="inlinew-[40vw] mt-12 ml-8">

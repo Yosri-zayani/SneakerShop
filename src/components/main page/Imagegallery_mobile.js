@@ -37,10 +37,9 @@ const ImagegalleryMobile = () => {
           {images.map((image, index) => (
             <img
               onClick={() => {
-                setIndex(index);
-                
+                setIndex(index);         
               }}
-              className="   w-[50%] h-[20%] rounded-xl cursor-pointer mt-4  focus:ring-4 ring-lime-500  hover:opacity-hover focus:opacity-focus"
+              className="w-[50%] h-[20%] rounded-xl cursor-pointer mt-4  focus:ring-4 ring-lime-500  hover:opacity-hover focus:opacity-focus"
               tabIndex={0}
               key={index}
               src={image}
