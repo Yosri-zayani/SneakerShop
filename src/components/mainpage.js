@@ -52,8 +52,8 @@ const Mainpage = () => {
         deleteitems={handleDeleteitems}
         cartRef={cartRef}
       />
-      <div className="hidden md:flex  " >  {/* Mobile design */}
-        <div className="w-[50vw]  h-auto  mr-8">
+      <div className="hidden md:flex" >  {/*Desktop  */}
+        <div className="w-auto  h-auto  mr-8">
         <ImagegalleryMobile />
         </div>
         <div className="inlinew-[40vw] mt-12 ml-8">
@@ -85,7 +85,7 @@ const Mainpage = () => {
           )}
         </div>
       </div>
-      <div className="md:hidden"> {/** desktop design */}
+      <div className="md:hidden"> {/**Mobile*/}
         <ImagegalleryMobile />
         <h3 className="  text-lime-500  m-4 font-bold">SNEAKER COMPANY</h3>
         <h1 className="m-4 font-bold text-4xl">

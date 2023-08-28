@@ -24,7 +24,7 @@ const ImagegalleryMobile = () => {
 
   return (
     <>
-      <div className="hidden md:inline ">  {/**Desktop design */}
+      <div className="hidden md:inline md:w-[50%] ">  {/**Desktop design */}
 
         <img
           tabIndex={0}
