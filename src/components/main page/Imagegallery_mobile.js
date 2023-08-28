@@ -28,7 +28,7 @@ const ImagegalleryMobile = () => {
 
         <img
           tabIndex={0}
-          className="h-[60vh] w-[50vw] rounded-lg hover:ring-8 cursor-pointer"
+          className="h-auto  w-auto rounded-lg hover:ring-8 cursor-pointer"
           src={images[index]}
           alt="main-images"
           onClick={() => openLightBox(index)}
@@ -41,7 +41,7 @@ const ImagegalleryMobile = () => {
                 setIndex(index);
                 
               }}
-              className="   w-[60%] h-[20%] rounded-xl cursor-pointer mt-4  focus:ring-4 ring-lime-500  hover:opacity-hover focus:opacity-focus"
+              className="   w-[50%] h-[20%] rounded-xl cursor-pointer mt-4  focus:ring-4 ring-lime-500  hover:opacity-hover focus:opacity-focus"
               tabIndex={0}
               key={index}
               src={image}
@@ -55,7 +55,7 @@ const ImagegalleryMobile = () => {
       </div>
       <div className="md:hidden">
         {condition ? (
-          <div className=" z-0 relatives ">
+          <div className=" z-0  ">
             <button
               className=" md:hidden bg-white h-9 w-9 absolute left-[5vw] top-1/4 rounded-full flex items-center justify-center"
               onClick={() => {
