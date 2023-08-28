@@ -32,12 +32,12 @@ const ImageGalleryMobile = () => {
           alt="main-images"
           onClick={() => openLightBox(index)}
         />
-        <div className="h-auto flex space-x-6 focus:ring-2">
+        <div className="h-auto flex  mt-2 items-center justify-center space-x-3 focus:ring-2">
           {images.map((image, idx) => (
             <img
               key={idx}
               onClick={() => setIndex(idx)}
-              className=" max-h-24 max-w-36 h-24 w-30 rounded-xl cursor-pointer mt-4 focus:ring-4 ring-lime-500 hover:opacity-hover focus:opacity-focus"
+              className=" w-[20%] rounded-xl cursor-pointer focus:ring-4 ring-lime-500 hover:opacity-hover focus:opacity-focus"
               tabIndex={0}
               src={image}
               alt="images"
