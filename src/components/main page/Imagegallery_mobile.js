@@ -24,7 +24,7 @@ const ImagegalleryMobile = () => {
 
   return (
     <>
-      <div className="hidden md:inline ">
+      <div className="hidden md:inline ">  {/**Desktop design */}
 
         <img
           tabIndex={0}
@@ -55,7 +55,7 @@ const ImagegalleryMobile = () => {
       </div>
       <div className="md:hidden">
         {condition ? (
-          <div className=" z-0 ">
+          <div className=" z-0 relatives ">
             <button
               className=" md:hidden bg-white h-9 w-9 absolute left-[5vw] top-1/4 rounded-full flex items-center justify-center"
               onClick={() => {

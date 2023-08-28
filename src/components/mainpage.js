@@ -52,7 +52,7 @@ const Mainpage = () => {
         deleteitems={handleDeleteitems}
         cartRef={cartRef}
       />
-      <div className="hidden md:flex  ">
+      <div className="hidden md:flex  " >  {/* Mobile design */}
         <div className="w-[50vw]  h-auto  mr-8">
         <ImagegalleryMobile />
         </div>
@@ -85,7 +85,7 @@ const Mainpage = () => {
           )}
         </div>
       </div>
-      <div className="md:hidden">
+      <div className="md:hidden"> {/** desktop design */}
         <ImagegalleryMobile />
         <h3 className="  text-lime-500  m-4 font-bold">SNEAKER COMPANY</h3>
         <h1 className="m-4 font-bold text-4xl">
